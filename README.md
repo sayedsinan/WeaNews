@@ -1,16 +1,95 @@
-# jitak_machine
 
-A new Flutter project.
 
-## Getting Started
+# 🔐 Jitak  – Flutter  Application
 
-This project is a starting point for a Flutter application.
+This is a fully functional Flutter-based **LWeaNews ** using **GetX** for state management. It includes clean architecture principles, reusable widgets, and controller separation. 
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔒 Login with email and password
+- 🧠 State management using GetX
+- ❌ Error handling & validation
+- ✨ Responsive UI with modern design
+- 📦 Clean, scalable code architecture
+- 🖼 Custom widgets for inputs and buttons
+- 🔐 Secure handling of credentials
+-
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+## 📥 How to Clone & Run
+
+### Prerequisites
+
+* ✅ Flutter SDK (version ≥ 3.10.0)
+* ✅ Dart SDK (version ≥ 3.0.0)
+* ✅ Android Studio / VS Code with Flutter extension
+
+### 🔧 Installation Steps
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/jitak_login_app.git
+cd jitak_login_app
+```
+
+2. **Get Flutter dependencies**
+
+```bash
+flutter pub get
+```
+
+3. **Run the app**
+
+```bash
+flutter run
+```
+
+> ✅ You can run on emulator or physical device (Android or iOS).
+
+---
+
+## 🎥 Demo Video
+
+
+https://github.com/user-attachments/assets/a24b2b3a-010d-40b6-8a08-225e217b1e41
+
+
+
+> 📹 *A complete walkthrough of the app (login flow, validations, home screen, etc.) will be added here.*
+
+> 👉 *Upload to YouTube or attach as a `.mp4` file in the repo*.
+
+
+
+---
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+```
+
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for more info.
+
+---
+
+## 👨‍💻 Author
+
+**Sinan Jifry**
+*Contact: [sayedsinanjifry7@gmail.com](mailto:sinanjifry@gmail.com)*
+
+
+---
+
+
+
