@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomTextFormField extends StatelessWidget {
+class CustomTextFormField extends StatefulWidget {
   final String labelText;
   final String hintText;
   final TextEditingController controller;
@@ -8,8 +8,6 @@ class CustomTextFormField extends StatelessWidget {
   final bool isPassword;
   final String? Function(String?)? validator;
   final IconData? prefixIcon;
-  final IconData? suffixIcon;
-  final VoidCallback? onSuffixTap;
 
   const CustomTextFormField({
     super.key,
@@ -20,29 +18,42 @@ class CustomTextFormField extends StatelessWidget {
     this.isPassword = false,
     this.validator,
     this.prefixIcon,
-    this.suffixIcon,
-    this.onSuffixTap,
   });
+
+  @override
+  State<CustomTextFormField> createState() => _CustomTextFormFieldState();
+}
+
+class _CustomTextFormFieldState extends State<CustomTextFormField> {
+  bool isPasswordVisible = false;
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      controller: controller,
-      keyboardType: keyboardType,
-      obscureText: isPassword,
-      validator: validator,
+      controller: widget.controller,
+      keyboardType: widget.keyboardType,
+      obscureText: widget.isPassword ? !isPasswordVisible : false,
+      validator: widget.validator,
       decoration: InputDecoration(
-        labelText: labelText,
-        hintText: hintText,
-        prefixIcon: prefixIcon != null ? Icon(prefixIcon) : null,
-        suffixIcon: suffixIcon != null
-            ? GestureDetector(
-                onTap: onSuffixTap,
-                child: Icon(suffixIcon),
+        labelText: widget.labelText,
+        hintText: widget.hintText,
+        prefixIcon:
+            widget.prefixIcon != null ? Icon(widget.prefixIcon) : null,
+        suffixIcon: widget.isPassword
+            ? IconButton(
+                icon: Icon(
+                  isPasswordVisible ? Icons.visibility : Icons.visibility_off,
+                ),
+                onPressed: () {
+                  setState(() {
+                    isPasswordVisible = !isPasswordVisible;
+                  });
+                },
               )
             : null,
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-        contentPadding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+        contentPadding:
+            const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       ),
     );
   }
