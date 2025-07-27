@@ -71,7 +71,19 @@ https://github.com/user-attachments/assets/a24b2b3a-010d-40b6-8a08-225e217b1e41
 dependencies:
   flutter:
     sdk: flutter
-  get: ^4.6.5
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  hive_flutter: ^1.1.0
+  geolocator: ^14.0.2
+  image_picker: ^1.1.2
+  collection:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator:
+  build_runner:
+
 ```
 
 ---
