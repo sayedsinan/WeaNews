@@ -2,7 +2,7 @@
 
 # 🔐 Jitak  – Flutter  Application
 
-This is a fully functional Flutter-based **LWeaNews ** using **GetX** for state management. It includes clean architecture principles, reusable widgets, and controller separation. 
+This is a fully functional Flutter-based **WeaNews ** using **GetX** for state management. It includes clean architecture principles, reusable widgets, and controller separation. 
 ---
 
 ## 🚀 Features
