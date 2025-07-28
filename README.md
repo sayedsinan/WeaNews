@@ -57,9 +57,7 @@ https://github.com/user-attachments/assets/a24b2b3a-010d-40b6-8a08-225e217b1e41
 
 
 
-> 📹 *A complete walkthrough of the app (login flow, validations, home screen, etc.) will be added here.*
-
-> 👉 *Upload to YouTube or attach as a `.mp4` file in the repo*.
+> 📹 *A complete walkthrough of the app (login flow, validations, home screen, etc.)
 
 
 
