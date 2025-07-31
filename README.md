@@ -2,7 +2,7 @@
 
 # 🔐 Jitak  – Flutter  Application
 
-This is a fully functional Flutter-based **WeaNews ** using **GetX** for state management. It includes clean architecture principles, reusable widgets, and controller separation. 
+This is a fully functional Flutter-based WeaNews  using GetX for state management. It includes clean architecture principles, reusable widgets, and controller separation. 
 ---
 
 ## 🚀 Features
@@ -30,8 +30,9 @@ This is a fully functional Flutter-based **WeaNews ** using **GetX** for state m
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/sayedsinan/jitak
-cd jitak
+git clone https://github.com/sayedsinan/WeaNews
+cd WeaNews
+
 ```
 
 2. **Get Flutter dependencies**
@@ -96,7 +97,7 @@ See the [LICENSE](LICENSE) file for more info.
 ## 👨‍💻 Author
 
 **Sinan Jifry**
-*Contact: [sayedsinanjifry7@gmail.com](mailto:sinanjifry@gmail.com)*
+*Contact: [sayedsinanjifry7@gmail.com](mailto:sayedsinanjifry7@gmail.com)*
 
 
 ---
